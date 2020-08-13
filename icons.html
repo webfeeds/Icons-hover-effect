@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="https://fonts.google.com/specimen/Josefin+Sans" rel="stylesheet">
+  
+  <title>Webfeeds | Icons Hover </title>
+
+  <style>
+*{
+margin:0;
+padding:0;
+} 
+body{
+background-color:#fff3e5;
+font-family: 'Josefin Sans', sans-serif;
+color:#1A263C;
+}
+.container{
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+.wrapper{
+height:12vh;
+width:85vh;
+background-color:#1B273D;
+border-radius:30px;
+display:flex;
+justify-content:space-around;
+align-items:center;
+box-shadow: 0 10px 8px 0px rgba(0, 0, 0, 0.5);
+padding-top:10px;
+}
+.fa{
+font-size:18px;
+margin-bottom:8px;
+z-index:2;
+color:white;
+opacity:0.2;
+}
+.item{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+cursor:pointer;
+}
+a{
+font-size:10px;
+color:white;
+opacity:0.2;
+letter-spacing:1px;
+}
+.item:hover .icon, .item:hover a{
+opacity:1;
+transform:scale(1.2);
+}
+</style>
+</head>
+<body>
+<div class="container">
+	<div class="wrapper">
+	    <div class="item">
+		  <i class="fa fa-github-alt icon"></i>
+		  <a>Github</a>
+		</div>
+		<div class="item">
+		  <i class="fa fa-sliders icon"></i>
+		  <a>Sliders</a>
+		</div>
+		<div class="item">
+		  <i class="fa fa-flash icon"></i>
+		  <a>Flash</a>
+		</div>
+		<div class="item">
+		  <i class="fa fa-user-o icon"></i>
+		  <a>User</a>
+		</div>
+		<div class="item">
+		  <i class="fa fa-slideshare icon"></i>
+		  <a>Slideshare</a>
+		</div>
+	</div>
+</div>
+</body>
+</html>
